@@ -2,6 +2,6 @@ import requests
 
 response = requests.get("http://localhost:5001")
 
-fnr = "4"
-print("file {} - apicall".format(fnr))
+f = "B"
+print("file {} - apicall".format(f))
 print(response.json())

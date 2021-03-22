@@ -6,7 +6,8 @@ api = Api(app)
 
 class GetData(Resource):
     def get(self):
-        return { "Value" : "Hello Bit World" }
+        print("Hello Bit World - on API server")
+        return { "Value" : "Hello Bit World - to client" }
 
 api.add_resource(GetData, '/')
 
